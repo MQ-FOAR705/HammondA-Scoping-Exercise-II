@@ -1,0 +1,111 @@
+%--Packages
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{fancyhdr}
+
+%--Parameters
+\setlength{\droptitle}{-10em}
+\title{Scoping Exercise II}
+\author{Aaron Hammond\\43691455}
+\date{August 2019}
+
+%--Page Setup
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{Scoping Exercise II}
+\lhead{Digital Humanities}
+
+\fancyfoot[RE,RO]{Aaron Hammond | 43691455}
+\fancyfoot[LE,LO]{Page: \thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+%--Title
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+%--
+
+\section{Project Introduction}
+Upon reflection of my scoping document a lot of my pains and gains revolved around the concept of combining information from participants with academic literature. While it may appear like a colossus project I think it could be quite achievable. As my MRes project will rely on field notes, audio recordings, academic literature and my own method of drawing out patterns and insights, this project will strive toward recognizing key terms and themes throughout my fieldwork data and academic literature. That is to say that all the information provided for synthesis will need to be in the same format. 
+
+\subsection{Inside Scope}
+The scope will be primarily set by the information that is introduced for analysis. The three forms of data to be analyzed are interview transcriptions, academic literature and field notes. In order for this project to be successful it must first render all three types of data into a uniform format. The project will then analyze the collection and provide a report that showcases the main themes and key terms represented in each piece of data. Where applicable, the project will group the pieces of data together under the identified theme/ key terms. The data can appear multiple times throughout the report under different themes and terms.
+
+\subsection{Out of Scope}
+The project will not search and accumulate anymore information than it has. The processing of information will be simply what is provided to it by myself. I will dictate which transcripts, academic literature and field notes that will be analyzed. Transcriptions will be limited to what i can personally record and not news reports or documentary interviews. This will prevent any hiccups from TV music, ambient noise, sound effects or audio grabs from affecting the transcription.
+
+\newpage
+%--
+
+\section{Outline}
+This area of the scoping document will foreshadow the potential steps in order to render the project a success.
+\subsection{Decomposition}
+This part of the document will be divided into three areas to account for the different types of data
+\subsubsection{Audio Recordings}
+\begin{enumerate}
+    \item Capture audio recordings with sufficient quality and noise-cancellation
+    \item Save files as .mp3 or .flac to provide the opportunity for isolating frequencies
+    \item Ensure files have appropriate metadata
+    \item Send files off to the could for transcription
+    \item Receive report of transcriptions (preferably with timestamps) in a .txt or .rtf format for further analysis
+    \item Report will have a 1 placed in the first character slot of the document
+    \item Analysis to be run on the lexicon used throughout the interview recording the frequency of non-grammatical words
+    \item Record positions all words within the document
+    \item Output a report that details the most frequently used words or terms
+\end{enumerate}
+\subsubsection{Academic Literature}
+\begin{enumerate}
+    \item Download academic literature from library site
+    \item Ensure that document holds necessary metadata for analysis
+    \item Convert academic pdfs into .txt or .rtf format for further analysis
+    \item Report will have a 2 placed in the first character slot of the document
+    \item Run analysis which identifies the most frequently used words and themes
+    \item Check if words and themes are used as headings or in the abstract
+    \item Output a report that details the most commonly used words and terms
+    \item Place flags next to words and terms that are used in the abstract or within headers
+\end{enumerate}
+\subsubsection{Field Notes}
+\begin{enumerate}
+    \item Write field notes with date as heading
+    \item Itemize the activities of the day
+    \item Record any participant engagement
+    \item Record the academic literature read and note the author, key terms and themes
+    \item Export data into a .txt or .rtf file-type
+    \item Report will have a 3 placed in the first character slot of the document
+    \item Output a report that recounts the frequency of activities, interviews and key themes found in research
+\end{enumerate}
+\subsection{Pattern Recognition}
+Both forms of data outlined above have similar steps such as ensuring the presence of meta data and all require conversion into the specified file type. Additionally, all are analyzed based on their contents. All require the identification of common themes throughout and the collation of that information into a single file. These files could then be further analyzed to provide even further insights.
+\subsection{Algorithm Design}
+The algorithm begins with the assumption that I have already accumulated and converted all different data-types into the specified format.
+\begin{enumerate}
+    \item Input all relevant files into the program
+    \item Program will recognize each file type as either a transcription, literature or field note based on the character in the first character
+    \item Transcriptions analysis will determine the prominent themes and terms used throughout
+    {\setlength\itemindent{25pt}\item The data will be stored in two categories 'Key Term' and 'Frequency' next to details of the file source}
+    {\setlength\itemindent{25pt}\item Data will be sorted by highest to lowest based on frequency, where key terms have the same frequency it will be sorted again by alphabetical order} 
+    \item Literature analysis will scan the contents and provide results in the same format (term, frequency)
+    {\setlength\itemindent{25pt}\item Analysis will determine if an abstract exists for differentiation}
+    {\setlength\itemindent{25pt}\item Any terms found within headers or abstract will have 10 times the value of simple text}
+    \item Field note analysis will undergo the same analysis for terms and frequency
+    {\setlength\itemindent{25pt}\item Frequency of activities and interviews each participants to be recorded}
+    {\setlength\itemindent{25pt}\item Key terms, names or identified themes frequency to be recorded in the same manner}
+    \item Collate all data in a single csv file-type report with columns, data source type, file name, key theme, frequency
+    \item I can then use this report to help identify potential patterns or links between academic literature and my fieldwork
+
+    
+%--
+\section{Conclusion}
+In summary this project will allow me to collate and identify patterns between all the information I will have on hand while in the field. The pattern analysis could potentially highlight aspects of my research or interviews that I had previously missed or alternatively draw similarities between participants. In total the project is about reducing three forms of data into a single workable format and then analyzing their contents. The use of an almost-uniform approach to analysis allows for output results to be easily compared and compiled. 
+    
+\end{enumerate}
+\end{document}
